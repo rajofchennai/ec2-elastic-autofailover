@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "eventmachine", "~> 1.0.3"
   gem.add_dependency "rest-client", "~> 1.6.7"
   gem.add_dependency "amazon-ec2"
+  gem.add_dependency "daemons", "~> 1.1.9"
   gem.add_development_dependency "rspec"
   gem.files          = `git ls-files`.split($/)
   gem.executables    = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
