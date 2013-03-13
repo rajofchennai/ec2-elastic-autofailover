@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["rajofchennai"]
   gem.email         = ["rajofchennai@yahoo.com"]
   gem.description   = %q{Pings a URL(elastic) if it goes down it shifts elastic ip to another instance}
+  gem.summary       = "Automatic transfer of elastic ip in case of failure"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
